@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hoja de Vida </title>
+    <style>
+       title{
+        text-align: center;
+       }
+        h1{
+            text-align: left;
+        }
+        body {
+            background-color: green;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header {
+            text-align:center ;
+            margin-bottom: px;
+        }
+        header img {
+            border-radius: 50%;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        h3, h4 {
+            margin-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+        }
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color:azure;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./430887115_411424424764894_7210188903846292131_n.jpg" alt="Joan David Infante Velasquez" width="200" height="200">
+        <h1>Hoja de Vida</h1>
+        <p>Informacion Basica</p>
+        <p1>Joan David Infante Velasquez</p>
+        <p2>Estudiante de la Universidad de Cundinamarca</p2>
+    </header>
+    <section>
+        <h2>Educacion</h2>
+        <ul>
+            <li>Universidad De Cundinamarca</li>
+            <li>Institucion Educactiva Departamental Intregarda de Sutatusa</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Experiencia</h2>
+        <h3>3 años </h3>
+    </section>
+    <section>
+        <h2>Proyectos</h2>
+        <ul>
+            <li>Pagina de mascotas</li>
+            <li>Juego de </li>
+        </ul>
+    </section>
+    <footer>
+        <h2>Contactame</h2>
+        <form action="/submit_form" method="post">
+            <label for="Email">Email:</label>
+            <input type="Email" name="Email" id="Email" required>
+            <br>
+            <label for="Telefono">Telefono:</label>
+            <input type="Telefono" name="Telefono" id="Telefono" required>
+            <br>
+            <button type="Enviar">enviar</button>
+        </form>
+    </footer>
+</body>
+</html>
